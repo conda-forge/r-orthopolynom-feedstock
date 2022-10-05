@@ -1,4 +1,4 @@
-{% set version = "1.0-6" %}
+{% set version = "1.0-6.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/orthopolynom_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/orthopolynom/orthopolynom_{{ version }}.tar.gz
-  sha256: 17576157374c927da2959459caf2ed161b49a4a7768ea3d3fbe47656cafacc5b
+  sha256: ec4a6ed266532f2f6d37a4ca6bd1b74c1df28a8c2caeab60e5d6af15bdbfe2c5
 
 build:
   merge_build_host: true  # [win]
