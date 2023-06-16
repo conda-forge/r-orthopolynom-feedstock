@@ -1,11 +1,11 @@
-About r-orthopolynom
-====================
+About r-orthopolynom-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-orthopolynom-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=orthopolynom
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-orthopolynom-feedstock/blob/main/LICENSE.txt)
 
 Summary: A collection of functions to construct sets of orthogonal polynomials and their recurrence relations.
 
